@@ -1,2 +1,5 @@
 all: 
-	gcc pointers.c
+	gcc -o pointers.pickle pointers.c
+
+run:
+	./pointers.pickle
